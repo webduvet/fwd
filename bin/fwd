@@ -1,0 +1,8 @@
+#!/usr/bin/env node
+
+var fwd = {};
+
+var argv = process.argv.splice(2);
+((argv.length > 0) && (fwd.mainAction = argv[0])) || (fwd.mainAction = "start");
+
+console.log(fwd);

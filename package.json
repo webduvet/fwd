@@ -1,0 +1,37 @@
+{
+  "name": "fwd",
+  "description": "Simple reverse proxy framework",
+  "version": "0.1.0",
+  "homepage": "",
+  "author": {
+    "name": "Andrej Bartko",
+    "email": "andrej.bartko@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.org/webduvet/fwd.git"
+  },
+  "bugs": {
+    "url": ""
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/fwd",
+  "engines": {
+    "node": ">= 1.0.24"
+  },
+  "scripts": {
+    "test": "grunt nodeunit"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.4",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt": "~0.4.2"
+  },
+  "keywords": []
+}
