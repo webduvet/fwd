@@ -21,11 +21,15 @@
     }
   ],
   "main": "lib/fwd",
+	"bin":{
+		"fwd":"./bin/fwd"
+	},
   "engines": {
     "node": ">= 1.0.24"
   },
   "scripts": {
-    "test": "grunt nodeunit"
+    "test": "grunt nodeunit",
+		"start": "node ./bin/fwd"
   },
   "devDependencies": {
     "grunt-contrib-jshint": "~0.6.4",
